@@ -1,0 +1,3 @@
+/home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/build/CMakeFiles/chacalito3D.dir
+/home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/build/CMakeFiles/edit_cache.dir
+/home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/build/CMakeFiles/rebuild_cache.dir
