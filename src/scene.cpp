@@ -24,11 +24,11 @@ void scene_structure::initialize()
 	float terrain_length = 50;
 
 	terrain.create_terrain_mesh(N_terrain_samples, terrain_length, n_col);
-	
+
 	terrain_mesh.initialize_data_on_gpu(terrain.mesh);
-	terrain_mesh.material.color = { 0.6f,0.85f,0.5f };
+	terrain_mesh.material.color = {0.1f,0.1f,0.1f};
 	terrain_mesh.material.phong.specular = 0.0f; // non-specular terrain material
-	terrain_mesh.texture.load_and_initialize_texture_2d_on_gpu(project::path + "assets/texture_grass.jpg", GL_REPEAT, GL_REPEAT);
+	// terrain_mesh.texture.load_and_initialize_texture_2d_on_gpu(project::path + "assets/texture_grass.jpg", GL_REPEAT, GL_REPEAT);
 
 	// mesh const tree_mesh = create_tree();
 	// tree.initialize_data_on_gpu(tree_mesh);
