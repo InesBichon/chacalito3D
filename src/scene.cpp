@@ -30,12 +30,12 @@ void scene_structure::initialize()
 	terrain_mesh.material.phong.specular = 0.0f; // non-specular terrain material
 	terrain_mesh.texture.load_and_initialize_texture_2d_on_gpu(project::path + "assets/texture_grass.jpg", GL_REPEAT, GL_REPEAT);
 
-	mesh const tree_mesh = create_tree();
-	tree.initialize_data_on_gpu(tree_mesh);
+	// mesh const tree_mesh = create_tree();
+	// tree.initialize_data_on_gpu(tree_mesh);
 
-	tree_position = terrain.generate_positions_on_terrain(N_trees);
+	// tree_position = terrain.generate_positions_on_terrain(N_trees);
 
-	tree.initialize_supplementary_data_on_gpu(cgp::numarray<vec3>(tree_position), 4, 1);
+	// tree.initialize_supplementary_data_on_gpu(cgp::numarray<vec3>(tree_position), 4, 1);
 }
 
 
@@ -49,7 +49,7 @@ void scene_structure::display_frame()
 
 	draw(terrain_mesh, environment);
 	
-	draw(tree, environment, N_trees);
+	// draw(tree, environment, N_trees);
 
 	if (gui.display_wireframe)
 	{
@@ -84,10 +84,10 @@ void scene_structure::display_gui()
 		terrain_mesh.vbo_normal.update(terrain.mesh.normal);
 		terrain_mesh.vbo_color.update(terrain.mesh.color);
 		
-		for (vec3& pos: tree_position)
-			pos.z = terrain.evaluate_terrain_height(pos.x, pos.y);
-		tree.supplementary_vbo[0].clear();
-		tree.initialize_supplementary_data_on_gpu(cgp::numarray<vec3>(tree_position), 4, 1);
+		// for (vec3& pos: tree_position)
+		// 	pos.z = terrain.evaluate_terrain_height(pos.x, pos.y);
+		// tree.supplementary_vbo[0].clear();
+		// tree.initialize_supplementary_data_on_gpu(cgp::numarray<vec3>(tree_position), 4, 1);
 	}
 }
 
