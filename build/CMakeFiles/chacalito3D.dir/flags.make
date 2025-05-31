@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = -DCGP_OPENGL_3_3 -DIMGUI_IMPL_OPENGL_LOADER_GLAD -DSOLUTION
 
-CXX_INCLUDES = -I/home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/src -I/home/pablo/INF443/csc43043ep_practice_code/cgp/library
+CXX_INCLUDES = -I/home/ines_bichon/projets-vscode/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/src -I/home/ines_bichon/projets-vscode/csc43043ep_practice_code/cgp/library
 
 CXX_FLAGS = -O2 -g -DNDEBUG   -g -O2 -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-pragmas -Wno-unknown-warning-option -Wno-sign-compare -Wno-type-limits
 

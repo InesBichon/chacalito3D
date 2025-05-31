@@ -1,4 +1,4 @@
-# Install script for directory: /home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D
+# Install script for directory: /home/ines_bichon/projets-vscode/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pablo/INF443/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ines_bichon/projets-vscode/csc43043ep_practice_code/scenes_csc43043ep/project/chacalito3D/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/pablo/INF443/csc43043ep_practice_code/cgp/library/CMakeLists.txt"
-  "/home/pablo/INF443/csc43043ep_practice_code/cgp/library/third_party/CMakeLists.txt"
+  "/home/ines_bichon/projets-vscode/csc43043ep_practice_code/cgp/library/CMakeLists.txt"
+  "/home/ines_bichon/projets-vscode/csc43043ep_practice_code/cgp/library/third_party/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
